@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 sidebar:
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
@@ -36,10 +36,10 @@ sidebar:
       level: Basics
 
   interests:
-    - item: Track hacks blog
-      link: https://trackhacks.hanskruse.eu
+    - item: blog
+      link: https://hanskruse.eu
 
-    - item: Canard Presse, culinary review blog
+    - item: Canard Presse, culinary reviews
       link: https://canardpresse.reviews
 
     - item: Cooking
@@ -47,16 +47,18 @@ sidebar:
 
     - item: Travel
       link: #
-    
+
+    - item: 10% Discount on Booking.com
+      link: https://www.booking.com/s/34_6/aa424bfe
 career-profile:
   title: Career Profile
   summary: |
     Senior Engineer at Innovalor
 
     Every line of code that doesn't exist, is correct!
-    
-    My main focus is server side software development both using Java EE and Azure Functions. 
-     - Also working on data mining using the ELK (Elasticsearch) stack. 
+
+    My main focus is server side software development both using Java EE and Azure Functions.
+     - Also working on data mining using the ELK (Elasticsearch) stack.
      - Interested in functional programming with Scala, F# or Haskell.
      - Past experience in software engineering with C# JavaScript and many other languages.
 
@@ -70,8 +72,8 @@ experiences:
     details: |
       Loaned out to DNB ID Solutions (Die Norkse Bank) to help creating their IDmee product,
       a mobile onboarding solution for banks. Within an international team based in the UK, Norway and the Netherlands, I did technical consulting on
-      integrating the Innovalor ReadID service for ID verification. I am responsible for developing the signed PDF generation and upload service for IDmee. 
-      Most development is remote but it also involves regular travel to London. 
+      integrating the Innovalor ReadID service for ID verification. I am responsible for developing the signed PDF generation and upload service for IDmee.
+      Most development is remote but it also involves regular travel to London.
 
       Responsible for developing both client as well as server side logging for data mining within Innovalor.
       I wrote projections that ensured not personal data is logged.
@@ -79,7 +81,7 @@ experiences:
       Responsible for setting up and maintaing the ELK based data mining solution for ReadID.
       This solution must ensure that no privacy sensitive data is logged.
 
-      I Also work on parts of the ReadID server software for mobile verification. 
+      I Also work on parts of the ReadID server software for mobile verification.
       This software is used by major banks in the Netherlands such as ING, Rabobank and Volksbank for their mobile onboarding of customers involving eMRTDs and facial recognition.
 
       Technologies
@@ -98,18 +100,18 @@ experiences:
     time: 2015 - 2017
     company: Innovalor, Enschede, the Netherlands
     details: |
-      Loaned out to DNB (Die Norske Bank) to investigate whether serverless development with Azure can be used to 
-      create a mobile onboarding solution integrating services from partners such as Iproov and ReadID. 
+      Loaned out to DNB (Die Norske Bank) to investigate whether serverless development with Azure can be used to
+      create a mobile onboarding solution integrating services from partners such as Iproov and ReadID.
       I experimented with Azure Functions in C# and learned Ansible.
 
       For ReadID Started developing a client side data mining solution that finally dumps it's data into Elasticsearch
       This solution must ensure that no privacy sensitive data is logged.
 
       Worked on integration of the ReadID service into a pilot product for a customer.
-      
+
       Responsible for integrating a third party server side verification web service into the ReadID service product.
 
-      Participated in developing the ReadID server product. 
+      Participated in developing the ReadID server product.
       Wrote parts of the OData API documentation
 
       Participated in the 2016 Dutch blockchain hackathon
@@ -117,7 +119,7 @@ experiences:
       Responsible for Jenkins based build infrastructure
 
       Technologies
-      
+
         - Azure Functions (serverless)
         - Ansible
         - Java
@@ -134,17 +136,17 @@ experiences:
     time: 2009 - 2015
     company: Centric, Deventer, the Netherlands
     details: |
-      Worked on Centric's offering for document and case management for local government Suite4DM. 
+      Worked on Centric's offering for document and case management for local government Suite4DM.
       Most work was at the Deventer branch office but sometimes in the Gouda headquarter or 's Hertogenbosch branch office.
 
-        - Responsible for investigating and setting up new OData based web services 
+        - Responsible for investigating and setting up new OData based web services
         - Knowledge transfer on OData to other team members.
         - Coached less experienced coworkers on software engineering matters.
         - Knowledge transfer on Javascript/Typescript, LINQ or WCF by giving presentations or sometimes pair programming.
         - Remote support customers with more complicated technical problems.
         - Responsible for writing most of the development manual of the then current DMS connector.
         - Technical consulting on this connector for Centric HR&Payroll solutions to both local developers and remote developers in Romania.
-        - Technical consulting for a partner company. 
+        - Technical consulting for a partner company.
         - Responsible for creating an integration test suite on the DMS connector using
           property based testing with MSTest and C#.
         - Participated in development of the then current DMS connector using VB.NET with SharePoint Server side Object Model,
@@ -152,36 +154,40 @@ experiences:
         - Improved performance of a legacy solution to allow for +/- 200 concurrent users.
         - Participated in writing conversion software.
         - Wrote parts of the front end of the Centric Archive and DMS solution.
-        - Was responsible for writing large parts of a metadata registration tool, "module documenten Distributie", 
+        - Was responsible for writing large parts of a metadata registration tool, "module documenten Distributie",
           for local government using VB.NET and JavaScript.
         - Coached coworkers in upgrading the now legacy code of the beforementioned product.
-          Especially I coached on converting the Javascript code  to TypeScript 
+          Especially I coached on converting the Javascript code  to TypeScript
           and using webservices based on the dutch StUF standard.
-      
+
       Some of the technologies used are
-        - WebAPI 
+        - WebAPI
         - OData
         - WCF
-        - VB.NET 
+        - VB.NET
         - C#,
-        - TypesScript 
+        - TypesScript
         - JQuery
         - CSOM and SharePoint Serverside Objectmodel
 
   - role: Software Engineer
+<<<<<<< HEAD
     time: 2007 - 2009
+=======
+    time: 2007 -2009
+>>>>>>> origin
     company: IKM Engineering, Emmen, the Netherlands
     details: |
-      IKM Engineering was an ISV that is specialized in decision support systems and advanced calculating models. 
+      IKM Engineering was an ISV that is specialized in decision support systems and advanced calculating models.
       Working on location in Emmen, from home in Deventer and in Cologne and Heidelberg.
-      
-      - Helped the company transfer to .NET and web oriented software Development. 
+
+      - Helped the company transfer to .NET and web oriented software Development.
         Part of the job was teaching both local and remote employees C#.
       - Was project lead for the first new product, a DotNetNuke(DNN) based HRM performance feedback system,
-        for international engineering firm Royal Haskoning. 
-      - Participated in integration and development, Python/Zope based, in the International Fliwas project. 
-        An international project on crisis management in the context of water management between "waterschappen" 
-        in the Netherlands and Germany. (Cologne and Heidelberg). 
+        for international engineering firm Royal Haskoning.
+      - Participated in integration and development, Python/Zope based, in the International Fliwas project.
+        An international project on crisis management in the context of water management between "waterschappen"
+        in the Netherlands and Germany. (Cologne and Heidelberg).
         This was in close cooperation with developers from German partner company Leiner & Wolff Gmbh.
       - Responsible for maintenance and performance analysis on their existing Delphi based software for portfolio analysis for housing (AKZO paint).
       - Responsible for for maintenance on existing Delphi based software for predicting paint maintenance on housing(AKZO paint).
@@ -191,16 +197,16 @@ experiences:
     time: 1999 - 2007
     company: Novay (former Telematica Instituut), Enschede, the Netherlands
     details: |
-      Telematica Instituut later renamed Novay was a national research institute that brought together business, science and society. 
+      Telematica Instituut later renamed Novay was a national research institute that brought together business, science and society.
       Developing prototype software for groupware, presence, healthcare, public transport, multi channeling, decision support, and remote control.
-      
+
         - Within the Gigaport Awareness project I wrote a demonstrator that showed presence of coworkers on a map and
-          in a building. Using Ajax longpolling, 
+          in a building. Using Ajax longpolling,
           Google Maps and a X3D(predecessor of WebGL) model of a building. Presented this at technology conference (ICT Delta Congres).
-        - For '​'Kanalen in Balans'​ Multichanneling (initially for financial agents) 
+        - For '​'Kanalen in Balans'​ Multichanneling (initially for financial agents)
           I converted Excel based models to a Web Application using Javascript and Drupal.
         - Participated in securing access to fast internet via fiber using Radius,DNSSEC and SAML.
-        - Rewrote the secure file transfer for the remote control of Electronic Microscopes for material analysis 
+        - Rewrote the secure file transfer for the remote control of Electronic Microscopes for material analysis
           from a non performing messaging system to plain ftp over OpenVPN. Demonstrated on a conference in Amsterdam RAI.
         - For a management event setup a demo environment for Second Life. With coupling to external services.
         - For Prorail (Dutch National Rail infrastructure authority) & NS (Dutch National Railway company)
@@ -209,43 +215,51 @@ experiences:
           - Did technical advice on location based services for maintenance in the rail sector.
           - Saved a trial on location based train timetables from being aborted.
             I wrote a working prototype service in 1 short line of code,
-            with a working mobile Symbian client in 3 short lines of code in a Friday afternoon. 
+            with a working mobile Symbian client in 3 short lines of code in a Friday afternoon.
             Trial made the national paper "De volkskrant".
         - Sponsored by Microsoft
-          - prototyped presence for business , Messenger, sensor data, calendar, phone exchange and the device used. 
+          - prototyped presence for business , Messenger, sensor data, calendar, phone exchange and the device used.
             Presented this at CeBIT. Currently known as Lync.
-          - Was invited to Cambridge University by Microsoft Research for a 3 day conference. 
+          - Was invited to Cambridge University by Microsoft Research for a 3 day conference.
             Looked especially in integrating options for their CRM offerings.
           - Visited TechED 2005 in Amsterdam RAI.
           - Spent a day in Disneyland Paris for a mobile development conference on the .NET compact framework.
           - Looked into the .NET compact framework for development.
           - Created a prototype mobile application, using .NET compact framework, for patients with Alzheimer disease.
           - Prototyped the CocoWare Groupware Framework.
-          - First in Java, later in cooperation with Microsoft in the early betas of NET 1.1. 
+          - First in Java, later in cooperation with Microsoft in the early betas of NET 1.1.
       - Presented a Shared browsing(WebDAV presence) on CSCW 2000 Philadelphia.(Cloned ICQ Surf for business use)
       - Worked on a prototype for a national patient record system using the .NET compact framework.
       - Created some of the server side code for a POC that was used in the care for patients with a stroke.
-      
+
   - role: Volunteer citizen participation board member
-    company: Municipality of Deventer 
+    company: Municipality of Deventer
+<<<<<<< HEAD
     time: 2008- 2009
+=======
+    time: 2008-2009
+>>>>>>> origin
     details: |
       Also member of local group for stimulation of solar energy.
 
   - role: Student assistent
     company: University of Twente
+<<<<<<< HEAD
     time: 1995 - 1998
+=======
+    time: 1995-1998
+>>>>>>> origin
     details: |
       Assisting jobs at labs teaching students programming both for first years and elder students.
-      
+
       One of the jobs was testing the then new integration project that let new first year students integrate their gained knowledge
       into a mockup situation of flood protection/coastal defense, (Maeslant Kering).
 
       Another was introduction into programming with C++,
-      where I had to prepare the subject in my summer holiday. 
-      I also had to give one of the courses because the teacher was not present. 
+      where I had to prepare the subject in my summer holiday.
+      I also had to give one of the courses because the teacher was not present.
 
-  
+
 projects:
   title: Blogs and Side Projects
   intro: >
@@ -263,6 +277,12 @@ projects:
       link: "https://github.com/nicenemo/Noaber"
       tagline: "Noaber, the .NET version . An experimental C# based libary providing extension for Functional Programming in C# or VB.NET"
 
+<<<<<<< HEAD
+=======
+    - item: Canard Presse culinary reviews
+      link: https://canardpresse.reviews
+      tag: "Food is love, Food is passion but an evening at a restaurant will cost you quickly a week of groceries for a small family"
+>>>>>>> origin
 
 publications:
   title: Publications
@@ -270,10 +290,10 @@ publications:
     Scientific publications.
 
   papers:
-    - title: Demonstration proposal, Collaborative Component Software, The CoCoWare Framework and Its Application 
+    - title: Demonstration proposal, Collaborative Component Software, The CoCoWare Framework and Its Application
       authors: Hans Kruse, Henri Ter Hofte, Robert Slagter
       conference: ACM CSCW 2000 Philadelphia
-      
+
 skills:
   title: Skills &amp; Proficiency
 
@@ -300,22 +320,22 @@ skills:
 
     - name: Azure Functions
       level: 70%
-    
+
     - name: Azure
       level: 60%
-    
+
     - name: AWS
       level: 60%
 
     - name: SQL
       level: 50%
-    
+
     - name: Scala
       level: 50%
-    
+
     - name: F#
       level: 50%
-    
+
     - name: Haskell
       level: 10%
 
@@ -325,22 +345,22 @@ education:
     time: 1994 - 1999
     link: https://www.utwente.nl/en/
     details: |
-      Ir. (Msc.) degree in 1999 on designing a specification language(and tools) 
-      for non functional properties in distributed systems. 
-      We would now recognize this as cloud mapping. 
+      Ir. (Msc.) degree in 1999 on designing a specification language(and tools)
+      for non functional properties in distributed systems.
+      We would now recognize this as cloud mapping.
       Today you would choose to have a tool that generates an Ansible script.
 
-      I did my thesis at Hollandse Signaal Apparaten(now Thales), 
-      a French electronics company delivering information systems and 
+      I did my thesis at Hollandse Signaal Apparaten(now Thales),
+      a French electronics company delivering information systems and
       services for the Aerospace, Defense, and Security markets.
 
-      Earlier I did my internship also at Hollandse Signaal Apparaten. 
+      Earlier I did my internship also at Hollandse Signaal Apparaten.
       I investigated the usefulness of Java Beans.
 
-      Most of my advanced subjects where mainly taught by the sub department of 
+      Most of my advanced subjects where mainly taught by the sub department of
       Telematics and Formal Methods, but also by the sub department of Software Engineering
       or the department of Mathematics. Some of the more advanced subjects
-      
+
         - Software Engineering
         - Advanced compiler building
         - Communication protocols
@@ -348,14 +368,14 @@ education:
         - Discrete event systems
         - Conceptual Structures
         - Ergonomics
-    
-      Active member of study association Inter-Actief. 
+
+      Active member of study association Inter-Actief.
       Mainly involved in editorial and design work for the assocications's magazine.
 
   - degree: Atheneum
     university: Schravenlant, Schiedam, the Netherlands
     time: 1992 - 1994
-    details: | 
+    details: |
      Higher education that gives acces to university.
      Graduated on the following subjects
 
@@ -370,7 +390,7 @@ education:
   - degree: HAVO
     university: Schravenlant, Schiedam, the Netherlands
     time: 1987 - 1994
-    details: | 
+    details: |
       Higher education that gives access to college.
       Graduated on the following subjects
 
