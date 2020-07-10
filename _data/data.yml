@@ -1,3 +1,4 @@
+---
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
@@ -171,11 +172,7 @@ experiences:
         - CSOM and SharePoint Serverside Objectmodel
 
   - role: Software Engineer
-<<<<<<< HEAD
     time: 2007 - 2009
-=======
-    time: 2007 -2009
->>>>>>> origin
     company: IKM Engineering, Emmen, the Netherlands
     details: |
       IKM Engineering was an ISV that is specialized in decision support systems and advanced calculating models.
@@ -203,7 +200,7 @@ experiences:
         - Within the Gigaport Awareness project I wrote a demonstrator that showed presence of coworkers on a map and
           in a building. Using Ajax longpolling,
           Google Maps and a X3D(predecessor of WebGL) model of a building. Presented this at technology conference (ICT Delta Congres).
-        - For '​'Kanalen in Balans'​ Multichanneling (initially for financial agents)
+        - For 'Kanalen in Balans' Multichanneling (initially for financial agents)
           I converted Excel based models to a Web Application using Javascript and Drupal.
         - Participated in securing access to fast internet via fiber using Radius,DNSSEC and SAML.
         - Rewrote the secure file transfer for the remote control of Electronic Microscopes for material analysis
@@ -234,21 +231,13 @@ experiences:
 
   - role: Volunteer citizen participation board member
     company: Municipality of Deventer
-<<<<<<< HEAD
-    time: 2008- 2009
-=======
-    time: 2008-2009
->>>>>>> origin
+    time: 2008 - 2009
     details: |
       Also member of local group for stimulation of solar energy.
 
   - role: Student assistent
     company: University of Twente
-<<<<<<< HEAD
     time: 1995 - 1998
-=======
-    time: 1995-1998
->>>>>>> origin
     details: |
       Assisting jobs at labs teaching students programming both for first years and elder students.
 
@@ -268,22 +257,15 @@ projects:
     - item: Track hacks blog
       link: https://trackhacks.hanskruse.eu
       tag: "Back to Duke side of the force"
-
     - title: Noaber Java
       link: "https://github.com/nicenemo/jnoaber"
       tagline: "Noaber, the Java version . An experimental Java libary providing extention for Functional Programming in Java"
-
     - title: Noaber .NET
       link: "https://github.com/nicenemo/Noaber"
       tagline: "Noaber, the .NET version . An experimental C# based libary providing extension for Functional Programming in C# or VB.NET"
-
-<<<<<<< HEAD
-=======
     - item: Canard Presse culinary reviews
       link: https://canardpresse.reviews
       tag: "Food is love, Food is passion but an evening at a restaurant will cost you quickly a week of groceries for a small family"
->>>>>>> origin
-
 publications:
   title: Publications
   intro: |
