@@ -88,6 +88,10 @@ experiences:
         - Help colleagues to write better tests using parameterized tests, property based testing and mutation testing.
         - Day to day maintenance of existing ELK setup.
 
+      Courses:
+
+        - Elastic engineer course, now preparing for the exam.
+
       2018-2019:
 
       Continue being loaned out to DNB ID Solutions (Die Norkse Bank) until early 2019 to help create their IDmee product,
@@ -126,8 +130,7 @@ experiences:
 
         - Free online Youtube course on Ansible by Jeff Geerling. 
         - Free Kubernetes tutorials
-        - Elastic engineer course, now preparing for the exam.
-
+      
   - role: Research Engineer
     time: 2015 - 2017
     company: Innovalor, Enschede, the Netherlands
