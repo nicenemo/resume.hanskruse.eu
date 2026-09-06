@@ -1,4 +1,3 @@
----
 # Be aware that even a small syntax error here can lead to failures in output.
 sidebar:
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
@@ -79,75 +78,41 @@ experiences:
 
       Also starring as:
         - Security Champion conducting threat modeling.
-        - Winner of multiple internal and external Hackathons (utilizing Elasticsearch & Logstash).
-        - Coaching junior developers up to medior levels.
+        - Winner of multiple hackathons (utilizing Elasticsearch & Logstash).
+        - Coaching a junior developer up to medior levels.
         - Core member of the Java Guild.
 
-  - role: Senior Engineer
-    time: 2017 - 2022
+  - role: Senior / Research Engineer
+    time: 2015 - 2022
     company: Innovalor (later Inverid, now part of Signicat), Enschede, the Netherlands
     details: |
-      2019-2022:
+      2019-2022 (Senior Engineer):
       
       Responsible for:
-        - Created a proof of concept for automated setup of the Elastic stack, Grafana, and Prometheus using Ansible.
-        - Wrote a custom Ansible roles collection.
-        - Setup of Ansible-based test environments for the Elastic stack.
-        - Ansible-based deployment of production Logstash pipelines.
-        - Proof of concept for Ansible-driven schema and pipeline configuration for Elasticsearch using readable YAML and Jinja templates instead of JSON.
-        - Modernizing Logstash pipeline architecture and dockerizing execution environments.
-        - Migrating infrastructure to Elastic Cloud.
-        - Documenting existing ELK infrastructure and maintaining troubleshooting guides.
-        - Delivering internal presentations on Elastic stack architecture and Ansible automation.
-        - Refactoring and migrating a large Ruby-based Logstash filter script into modular components.
-        - Assisting with proof-of-concept integrations for Elastic-Agent.
-        - Maintaining and extending existing Java-based analytics applications and unit test suites.
-        - Migrating JUnit 4 test suites to JUnit 5.
-        - Mentoring colleagues on writing robust tests using parameterized testing, property-based testing, and mutation testing.
+        - Proof of concept and deployment for automated setup of Elastic stack, Grafana, and Prometheus using Ansible and custom Ansible role collections.
+        - Dockerized Logstash pipeline setups and migration to Elastic Cloud.
+        - Schema and pipeline management for Elasticsearch using YAML and Jinja templates instead of JSON.
+        - Refactoring large Ruby-based Logstash filter scripts into modular components.
+        - Infrastructure documentation, troubleshooting guides, and internal technical presentations.
+        - Proof-of-concept evaluation for Elastic-Agent adoption.
+        - Java analytics software maintenance and unit test migrations (JUnit 4 to JUnit 5).
+        - Mentoring colleagues on parameterized, property-based, and mutation testing practices.
 
-      Courses:
-        - Elastic Certified Engineer Course
+      2015-2019 (Research Engineer / Consultant):
 
-      2018-2019:
-
-      Contracted to DNB ID Solutions (Den Norske Bank) to co-create their IDmee product—a mobile onboarding solution for financial institutions. Collaborated within an international team (UK, Norway, Netherlands) delivering technical consulting for ReadID verification service integration. Developed the signed PDF generation and upload service for IDmee.
+      Contracted to DNB ID Solutions (Den Norske Bank) to create IDmee—a mobile onboarding solution for financial institutions. Worked within an international team (UK, Norway, Netherlands) delivering technical consulting on ReadID verification integration and developing signed PDF generation/upload services.
 
       Responsible for:
-        - Maintaining the Elastic stack-based data mining solution for ReadID (a lightweight, tree-structured keyword index system without full-text search overhead).
-        - Maintaining a Java library translating privacy-sensitive data from passport chips into anonymized structures.
+        - Designing, developing, and maintaining the Elastic stack data mining pipeline for ReadID (tree-structured keyword index system without full-text search overhead).
+        - Developing and maintaining Java anonymization libraries for passport chip data.
+        - Integrating third-party server-side verification web services into ReadID and writing OData REST API documentation.
+        - Engineering ReadID server software for mobile NFC passport verification and C# Azure Functions.
+        - Designing and delivering internal Kibana visualization training.
+        - Mentoring student intern groups and participating in the 2016 Dutch Blockchain Hackathon.
 
-      Other achievements:
-        - Engineered components of the ReadID server platform for NFC passport verification on mobile.
-        - Contributed to Android native component development.
-        - Technical guidance for intern teams.
-      
-      Technologies:
-        - AWS (EC2, S3, SQS)
-        - Android, Java (EE), JavaScript, Lombok, Ruby
-        - Ansible, Docker
-        - Azure (Functions, Key Vault, Blob Storage)
-        - ELK Stack (Elasticsearch, Logstash, Kibana, Beats, Fleet, Elastic-Agent)
-        - OData, PostgreSQL, SQL Server
-
-      Courses:
-        - Jeff Geerling's Ansible Course
-        - Kubernetes Developer Tutorials
-
-  - role: Research Engineer
-    time: 2015 - 2017
-    company: Innovalor, Enschede, the Netherlands
-    details: |
-      Loaned to DNB ID Solutions (Den Norske Bank) to build IDmee, an identity verification onboarding platform. Handled technical consulting for ReadID integration and developed the signed PDF generation/upload microservice. Built prototypes with C# Azure Functions and introduced Ansible automation.
-
-      Responsible for:
-        - Designing and implementing the Elastic stack-based data mining pipeline for ReadID.
-        - Developing a specialized Java library for anonymizing sensitive passport identity data.
-        - Designing and leading internal training on Kibana data visualization.
-        - Integrating third-party server-side identity verification web services into ReadID.
-        - Authoring documentation for the ReadID OData REST API.
-
-      Achievements:
-        - Participant in the 2016 Dutch Blockchain Hackathon.
+      Technologies & Training:
+        - Technologies: AWS (EC2, S3, SQS), Azure (Functions, Key Vault, Blob Storage), Docker, Ansible, ELK Stack (Elasticsearch, Logstash, Kibana, Beats, Fleet, Elastic-Agent), Java (EE), JavaScript, Lombok, OData, PostgreSQL, SQL Server, Ruby.
+        - Courses: Elastic Certified Engineer, Jeff Geerling's Ansible Course, Kubernetes Developer Tutorials.
 
   - role: Software Engineer
     time: 2009 - 2015
