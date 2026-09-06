@@ -71,13 +71,14 @@ experiences:
 
       Responsible for:
         
-        - Spec driven AI assisted of migration of Spring -boot 3.5 to 4.1 migration guarded by:
+        - Spec driven AI assisted of migration at scale of Spring -boot 3.5 to 4.1 migration guarded by:
           - editorconfig
           - enforcer
           - jacoco 
           - archunit
           - openrewrite
           - pitest
+          Less technical debt and more secure
         - Migrating elastic-search 7.x high level client library based code to modern fluent functional  elasticsearch-java 8.x Java
         - Spec driven AI assisted migration of Junit 5.x to Junit 6.1
         - Introducing custom metrics with Micrometer for use with Elastic observability
