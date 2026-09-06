@@ -68,6 +68,7 @@ experiences:
       2022-present:
 
       Responsible for:
+
         - Manual migrating Java 8 to 25 migrations with all steps in between
         - Manual migrtating Junit 3.x test code to 5.x
         - Spec driven AI assisted of migration of Spring -boot 3.5 to 4.1 migration guarded by:
@@ -77,11 +78,8 @@ experiences:
         - archunit
         - openrewrite
         - pitest
-       
         - Spec driven AI assisted migration of Junit 5.x to Junit 6.1
         - Threat modelling
-        
-      Also staring as:
         - Security Champion
         - Hackathon winner
         - Core member of Java Guild
