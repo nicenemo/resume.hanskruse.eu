@@ -19,7 +19,7 @@ sidebar:
   github: nicenemo
   gitlab:
   bitbucket:
-  twitter: '@hanskruse'
+  twitter: 
   stack-overflow: 628441/hans # Number/Username, e.g. 123456/alandoe
   codewars:
   languages:
@@ -34,38 +34,60 @@ sidebar:
   interests:
     - item: Blog
       link: https://hanskruse.eu
-    - item: Canard Presse, culinary reviews
-      link: https://canardpresse.reviews
-    - item: Cooking (See photos on Twitter)
-      link: https://twitter.com/hanskruse
+    - item: Cooking 
+      link: #
     - item: Gardening vegetables and herbs
       link: #
     - item: Building mechanical keyboards
-      link: https://youtu.be/VgpujH1P6FQ
-    - item: Home automation
-      link: https://youtu.be/ctDqaofBJ-k
+      link: #
+    - item: Home lab
+      link: #
     - item: Travel
-      link: https://youtu.be/uY-yuD-fBFM
+      link: #
     - item: Languages & culture
       link: #
 career-profile:
   title: Career Profile
   summary: |
-    Senior Engineer at Innovalor
+    25+ years of experience as Software Engineer, currently working at KVK (Dutch chamber of commerce|Company House| Handelskammer)
 
     Every line of code that doesn't exist, is correct! 
 
-    Ansible is my hammer.
+    I work at the crossroads of Spring-Boot, Elasticsearch and security as a Security Champion. Participated in hackathons
+    Experienced at large scale framework migrations with and without usng AI. Devops experience with Kubernetes and more.
 
-    My focus areas are, server side development and testing using Java, Elasticsearch, Logstash, Kibana and Ansible.
-
-    I live in the city of Deventer, the Netherlands, and commute to work 4 days a week to Enschede.
-    One day per week I work from home.
+    When not at work I cook, travel and enjoy learning new things by thinkering with mechanical keyboards embedded systems or with e-waste in my homelab with new or unfamilar technologies.
+    
+    I live and work in the city of Deventer, the Netherlands, and commute to work 1 days a week to Utrecht.
 
 experiences:
   - role: Senior Engineer
-    time: 2017 - Present
+    time: 2017 - 2022
     company: Innovalor, Enschede, the Netherlands
+    details: |
+      2022-present:
+
+      Responsible for:
+        - Manual migrating Java 8 to 25 migrations with all steps in between
+        - Manual migrtating Junit 3.x test code to 5.x
+        - Spec driven AI assisted of migration of Spring -boot 3.5 to 4.1 migration guarded by:
+        - editorconfig
+        - enforcer
+        - jacoco 
+        - archunit
+        - openrewrite
+        - pitest
+       
+        - Spec driven AI assisted migration of Junit 5.x to Junit 6.1
+        - Threat modelling
+        
+      Also staring as:
+        - Security Champion
+        - Hackathon winner
+        - Core member of Java Guild
+  - role: Senior Engineer
+    time: 2017 - 2022
+    company: Innovalor, later Inverid and now Part of Signicat, Enschede, the Netherlands
     details: |
       2019-2022:
       
@@ -275,15 +297,30 @@ projects:
   intro: >
     My blogs and side projects
   assignments:
+    - title: Sir Thomas Pendleton
+      link: "https://github.com/nicenemo/sir_thomas_pendleton"
+      tagline: "Please state the nature of your Architectural Emergency. My AI software architecture and communication trainer, It can communicate pragmatic, dogmatic or full Vogon with a Scottish twist"
+    - title: Mik Mak Muk
+      link: "https://github.com/nicenemo/mikmakmuk"
+      tagline: "Ansible driven multi flavour 3 node ELK cluster setup, using Systemd, Systemd containers, Docker, Incus and Kubernets"
+    - title: Batocera Ansible
+      link: "https://github.com/nicenemo/batocera_ansible"
+      tagline: "Ansible driven Secure setup and teardown of Batocera retro game system"
+    - title: Franken Planck
+      link: "https://github.com/nicenemo/franken-planck"
+      tagline: "My many layer Planck keyboard layout"
+    - title:  Franken Cornish Zen
+      link: "https://github.com/nicenemo/franken-cornish-zen"
+      tagline: "Many layer Keyboard layout for The Cornish Zen which goes well beyound my Franken Planck Layout exploring better homerow mods, leader keys and unicode"
     - title: Noaber Java
       link: "https://github.com/nicenemo/jnoaber"
       tagline: "Noaber, the Java version. An experimental Java based library; providing extension for Functional Programming in Java"
     - title: Noaber .NET
       link: "https://github.com/nicenemo/Noaber"
       tagline: "Noaber, the .NET version. An experimental C# based library; providing extension for Functional Programming in C# or VB.NET"
-    - item: Canard Presse culinary reviews
-      link: https://canardpresse.reviews
-      tag: "Food is love, Food is passion, but an evening at a restaurant will cost you quickly a week of groceries for a small family"
+    - title: Ax Amsterdam
+      link: "https://github.com/nicenemo/ax_amsterdam"
+      tagline: "Regular expression based configuration for translating Dutch texts using the English TTS sytem on the Commodore Amiga, once featured on an Aminet CD"
 publications:
   title: Publications
   intro: |
