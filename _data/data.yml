@@ -310,7 +310,7 @@ projects:
       tagline: "Please state the nature of your Architectural Emergency. My AI software architecture and communication trainer, It can communicate pragmatic, dogmatic or full Vogon with a Scottish twist"
     - title: Mik Mak Muk
       link: "https://github.com/nicenemo/mikmakmuk"
-      tagline: "Ansible driven multi flavour 3 node ELK cluster setup, using Systemd, Systemd containers, Docker, Incus and Kubernets"
+      tagline: "Ansible driven multi flavour 3 node ELK cluster setup, using Systemd, Systemd containers, Docker, Incus and Kubernetes"
     - title: Batocera Ansible
       link: "https://github.com/nicenemo/batocera_ansible"
       tagline: "Ansible driven Secure setup and teardown of Batocera retro game system"
