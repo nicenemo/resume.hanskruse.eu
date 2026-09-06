@@ -85,13 +85,15 @@ experiences:
         - http route,istio and other Kubernetes configurations
         - Manual migrating Java 8 to 25 migrations with all steps in between
         - Manual migrtating Junit 3.x test code to 5.x
+        - Introducing Logstash for some migration and testing tasks
         
       
       Also starring as:
 
         - Threat modelling
         - Security Champion
-        - Hackathon winner
+        - Winner of multiple Hackathons
+          - Using Elasticsearch & Logstash
         - Coaching a junior developer up to medior
         - Core member of Java Guild
   - role: Senior Engineer
