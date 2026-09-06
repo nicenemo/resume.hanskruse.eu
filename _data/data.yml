@@ -53,7 +53,7 @@ career-profile:
 
     Every line of code that doesn't exist, is correct! 
 
-    I work at the crossroads of Spring-Boot, Elasticsearch and security as a Security Champion. Participated in hackathons
+    I work at the crossroads of Spring-Boot, Elasticsearch and security as a Security Champion; participated and won hackathons
     Experienced at large scale framework migrations with and without usng AI. Devops experience with Kubernetes and more.
 
     When not at work I cook, travel and enjoy learning new things by thinkering with mechanical keyboards embedded systems or with e-waste in my homelab with new or unfamilar technologies.
@@ -72,12 +72,12 @@ experiences:
         - Manual migrating Java 8 to 25 migrations with all steps in between
         - Manual migrtating Junit 3.x test code to 5.x
         - Spec driven AI assisted of migration of Spring -boot 3.5 to 4.1 migration guarded by:
-        - editorconfig
-        - enforcer
-        - jacoco 
-        - archunit
-        - openrewrite
-        - pitest
+          - editorconfig
+          - enforcer
+          - jacoco 
+          - archunit
+          - openrewrite
+          - pitest
         - Spec driven AI assisted migration of Junit 5.x to Junit 6.1
         - Threat modelling
         - Security Champion
