@@ -68,9 +68,7 @@ experiences:
       2022-present:
 
       Responsible for:
-
-        - Manual migrating Java 8 to 25 migrations with all steps in between
-        - Manual migrtating Junit 3.x test code to 5.x
+        
         - Spec driven AI assisted of migration of Spring -boot 3.5 to 4.1 migration guarded by:
           - editorconfig
           - enforcer
@@ -78,10 +76,20 @@ experiences:
           - archunit
           - openrewrite
           - pitest
+        - Migrating elastic-search 7.x high level client library based code to modern fluent functional  elasticsearch-java 8.x Java
         - Spec driven AI assisted migration of Junit 5.x to Junit 6.1
+        - Introducing custom metrics with Micrometer for use with Elastic observability
+        - http route,istio and other Kubernetes configurations
+        - Manual migrating Java 8 to 25 migrations with all steps in between
+        - Manual migrtating Junit 3.x test code to 5.x
+        
+      
+      Also starring as:
+
         - Threat modelling
         - Security Champion
         - Hackathon winner
+        - Coaching a junior developer up till medior
         - Core member of Java Guild
   - role: Senior Engineer
     time: 2017 - 2022
