@@ -1,0 +1,9 @@
+---
+# Keeps the pinned GitHub Actions of the Pages workflow current. There are no other package manifests.
+version: 2
+updates:
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+    open-pull-requests-limit: 2

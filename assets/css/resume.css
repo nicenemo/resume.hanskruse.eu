@@ -1,0 +1,42 @@
+/* resume.hanskruse.eu: additions to the shared style.css (bar, wave banner and colours come from there). */
+.skip { position: absolute; left: -999px; top: 0; padding: 8px 14px; background: var(--accent); color: var(--accent-text); z-index: 30; }
+.skip:focus { left: 8px; top: 8px; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h3 { font-size: 1.15rem; margin: 0 0 4px; }
+
+header.hero .who { display: flex; align-items: center; gap: 20px; margin-bottom: 8px; }
+header.hero .avatar { width: 100px; height: 100px; border-radius: 50%; border: 3px solid #8ea2ff; object-fit: cover; flex: none; }
+header.hero .who h1 { margin: 0 0 4px; }
+header.hero .who .tag { margin: 0; }
+
+.section { scroll-margin-top: 64px; }
+.summary p, .details p, .details li { max-width: 52rem; }
+.item { margin: 0 0 22px; padding: 0 0 16px; border-bottom: 1px solid var(--line); max-width: 52rem; }
+.item:last-child { border-bottom: 0; }
+.item header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 2px 16px; }
+.item h3 { margin: 0; }
+.time, .meta { color: var(--muted); font-size: .92rem; }
+.company { margin: 2px 0 8px; font-weight: 600; }
+.item .meta { margin: 2px 0 0; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin: 12px 0 8px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.card p { margin: 6px 0 0; }
+
+.skillset { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px 24px; }
+.skillset li { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; max-width: none; margin: 0; }
+.skill-level { color: var(--muted); font-size: .92rem; }
+.level-bar { grid-column: 1 / -1; display: block; height: 8px; border-radius: 999px; background: var(--code); border: 1px solid var(--line); overflow: hidden; }
+.level-bar span { display: block; height: 100%; background: var(--accent); }
+
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px 32px; }
+.plain { list-style: none; padding: 0; margin: 0; }
+.plain li { margin: 0 0 4px; }
+
+@media (max-width: 560px) { header.hero { padding: 36px 0 24px; } header.hero .avatar { width: 72px; height: 72px; } }
+@media print {
+  nav.sitenav, header.hero .btns, .skip { display: none; }
+  header.hero { background: none; color: inherit; padding: 0; border: 0; }
+  header.hero h1, header.hero .tag { color: inherit; text-shadow: none; }
+  .item, .card { break-inside: avoid; }
+}

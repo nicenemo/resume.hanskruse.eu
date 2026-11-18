@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# Pre-commit hook: scan staged changes for secrets (gitleaks), then lint and test-build the site.
+# Enable with: ./githooks-setup.sh
+set -euo pipefail
+
+need() {
+    if ! command -v "$1" >/dev/null 2>&1; then
+        echo "pre-commit: $1 is not installed ($2); refusing to commit unchecked." >&2
+        exit 1
+    fi
+}
+
+need gitleaks 'sudo pacman -S gitleaks'
+need yamllint 'sudo pacman -S yamllint'
+need actionlint 'sudo pacman -S actionlint'
+need jekyll 'sudo pacman -S jekyll'
+need python3 'sudo pacman -S python'
+
+gitleaks git --staged --redact --no-banner --verbose
+
+yamllint . >/dev/null
+
+actionlint
+
+# A strict test build into a temporary directory; any warning or error fails the commit.
+out="$(mktemp -d)"
+trap 'rm -rf "$out"' EXIT
+jekyll build --strict_front_matter --destination "$out" --quiet >/dev/null
+
+# Policy (offline): no vendored third-party libraries in the source and no third-party requests from the built site.
+.githooks/check-third-party.py "$out"

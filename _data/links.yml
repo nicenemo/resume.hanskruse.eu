@@ -1,0 +1,16 @@
+---
+# Other sites of the same author, shown in the menu.
+playbooks:
+  - name: 'kos'
+    site: 'https://hanskruse.eu/kos/'
+  - name: 'samos'
+    site: 'https://hanskruse.eu/samos/'
+  - name: 'Mik Mak Muk'
+    site: 'https://hanskruse.eu/mikmakmuk/'
+  - name: 'multiberry'
+    site: 'https://hanskruse.eu/multiberry/'
+other:
+  - name: 'Nachtgespenst'
+    site: 'https://hanskruse.eu/nachtgespenst/'
+  - name: 'Blog'
+    site: 'https://hanskruse.eu/'

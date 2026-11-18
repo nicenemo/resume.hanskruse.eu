@@ -1,0 +1,25 @@
+{% assign sidebar = site.data.data.sidebar %}
+<nav class="sitenav" aria-label="Site"><div class="wrap">
+<a class="brand" href="{{ '/' | relative_url }}">{{ sidebar.name }}</a>
+{% if site.data.data.experiences %}<a class="key" href="#experience">Experience</a>{% endif %}
+{% if site.data.data.skills %}<a class="key" href="#skills">Skills</a>{% endif %}
+<details class="menu"><summary aria-label="Menu"><span class="burger" aria-hidden="true"></span><span class="label">Menu</span></summary>
+<div class="panel">
+<div class="col"><h2>Resume</h2><ul>
+{% if site.data.data.career-profile %}<li><a href="#profile">Profile</a></li>{% endif %}
+{% if site.data.data.experiences %}<li><a href="#experience">Experience</a></li>{% endif %}
+{% if site.data.data.projects %}<li><a href="#projects">Projects</a></li>{% endif %}
+{% if site.data.data.publications %}<li><a href="#publications">Publications</a></li>{% endif %}
+{% if site.data.data.skills %}<li><a href="#skills">Skills</a></li>{% endif %}
+{% if site.data.data.education %}<li><a href="#education">Education</a></li>{% endif %}
+<li><a href="#about-me">Interests and languages</a></li>
+</ul></div>
+<div class="col"><h2>Ansible playbooks</h2><ul>
+{% for link in site.data.links.playbooks %}<li><a href="{{ link.site }}">{{ link.name }}</a></li>
+{% endfor %}</ul></div>
+<div class="col"><h2>More</h2><ul>
+{% for link in site.data.links.other %}<li><a href="{{ link.site }}">{{ link.name }}</a></li>
+{% endfor %}{% if sidebar.github %}<li><a href="https://github.com/{{ sidebar.github }}">GitHub</a></li>{% endif %}
+</ul></div>
+</div></details>
+</div></nav>

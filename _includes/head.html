@@ -1,26 +1,15 @@
+{% assign sidebar = site.data.data.sidebar %}
 <head>
-  <title>{{ site.title }}</title>
-
-  <!-- Meta -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hans Kruse resume">
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico">
-
-  <!-- Global CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/bootstrap/css/bootstrap.min.css">
-
-  <!-- Plugins CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/font-awesome/css/all.css">
-
-  <!-- Theme CSS -->
-  <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ sidebar.name }}{% if sidebar.tagline %} | {{ sidebar.tagline }}{% endif %}</title>
+<meta name="description" content="{{ site.description }}">
+<meta name="author" content="{{ sidebar.name }}">
+<link rel="canonical" href="{{ site.url }}/">
+<meta name="theme-color" content="#0b0e14" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml" sizes="any">
+<link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/resume.css' | relative_url }}">
+<script src="{{ '/menu.js' | relative_url }}" defer></script>
 </head>

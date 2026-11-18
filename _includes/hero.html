@@ -1,0 +1,22 @@
+{% assign sidebar = site.data.data.sidebar %}
+<header class="hero"><div class="wrap">
+<div class="who">
+{% if sidebar.avatar %}<img class="avatar" src="{{ '/assets/images/' | append: sidebar.avatar | relative_url }}" alt="Portrait of {{ sidebar.name }}" width="100" height="100">{% endif %}
+<div>
+<h1>{{ sidebar.name }}</h1>
+{% if sidebar.tagline %}<p class="tag">{{ sidebar.tagline }}</p>{% endif %}
+</div>
+</div>
+<p class="btns">
+{% if sidebar.email %}<a href="mailto:{{ sidebar.email }}">Email</a>{% endif %}
+{% if sidebar.linkedin %}<a class="alt" href="https://www.linkedin.com/in/{{ sidebar.linkedin }}">LinkedIn</a>{% endif %}
+{% if sidebar.github %}<a class="alt" href="https://github.com/{{ sidebar.github }}">GitHub</a>{% endif %}
+{% if sidebar.gitlab %}<a class="alt" href="https://gitlab.com/{{ sidebar.gitlab }}">GitLab</a>{% endif %}
+{% if sidebar.bitbucket %}<a class="alt" href="https://bitbucket.org/{{ sidebar.bitbucket }}">Bitbucket</a>{% endif %}
+{% if sidebar.twitter %}<a class="alt" href="https://twitter.com/{{ sidebar.twitter }}">Twitter</a>{% endif %}
+{% if sidebar.stack-overflow %}<a class="alt" href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}">Stack Overflow</a>{% endif %}
+{% if sidebar.codewars %}<a class="alt" href="https://www.codewars.com/users/{{ sidebar.codewars }}">Codewars</a>{% endif %}
+{% if sidebar.phone %}<a class="alt" href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>{% endif %}
+<a class="alt home" href="https://{{ sidebar.website | default: 'hanskruse.eu' }}/">{{ sidebar.website | default: 'hanskruse.eu' }}</a>
+</p>
+</div></header>

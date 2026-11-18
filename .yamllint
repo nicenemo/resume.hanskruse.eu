@@ -1,0 +1,27 @@
+---
+# yamllint configuration (120 columns), the same style as the playbook repositories.
+extends: default
+
+ignore: |
+  _site/
+  .jekyll-cache/
+
+rules:
+  # _data/data.yml is the resume text itself: long prose lines are fine there, syntax errors are not.
+  line-length:
+    max: 120
+    ignore: |
+      _data/data.yml
+  trailing-spaces:
+    ignore: |
+      _data/data.yml
+  comments:
+    min-spaces-from-content: 1
+  comments-indentation: false
+  braces:
+    max-spaces-inside: 1
+  document-start: disable
+  truthy:
+    check-keys: false
+    ignore: |
+      _data/data.yml

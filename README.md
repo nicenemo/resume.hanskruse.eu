@@ -1,61 +1,50 @@
----
-permalink: /index.html
----
-# Readme
+# resume.hanskruse.eu
 
-Nothing here for you. Based on an existing theme.
+The resume of Hans Kruse. GitHub Pages builds it with its own Jekyll from the YAML in `_data/data.yml`; there is no
+hand-written page. Edit the text in `_data/data.yml`, the links to the other sites in `_data/links.yml`.
 
-### Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). 
-> Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
+## Layout
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](http://webjeda.com/online-cv/).
+* `_layouts/default.html` and `_includes/`: Liquid templates that turn the data into HTML (one include per section).
+* `style.css`, `menu.js`, `hero-bg.svg` and `favicon.svg`: shared with the playbook sites and hanskruse.eu (bar with
+  hamburger menu, wave banner, light and dark scheme). `assets/css/resume.css` holds the resume additions.
+* No third-party scripts, styles or fonts are loaded at runtime.
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+## Building locally
 
-## Installation
+```bash
+jekyll serve          # http://127.0.0.1:4000
+jekyll build --strict_front_matter --destination /tmp/resume-site
+```
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready at `https://username.github.io/online-cv/`
+`jekyll` is installed on kos by `dev-setup.yml` of the kos playbook repository.
 
-Change all the details from one place: ``_data/data.yml``
+## Linting and hooks
 
-Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
+Run `./githooks-setup.sh` once per checkout. Never bypass the hooks with `--no-verify`. The hooks refuse to run when a
+tool is missing (`gitleaks`, `yamllint`, `actionlint`, `jekyll`, `trufflehog`, `osv-scanner`).
 
-## Skins
+* `pre-commit`:
+  * `gitleaks` on the staged changes;
+  * `yamllint` (`.yamllint`; `_data/data.yml` only has to be valid YAML) and `actionlint` for the workflows;
+  * a strict test build with Jekyll into a temporary directory (a warning fails the commit);
+  * the third-party policy `.githooks/check-third-party.py`, which works offline. It fails on vendored libraries in the
+    source (`assets/plugins`, `vendor/`, `node_modules/`, `*.min.js`, `*.min.css`) and on any script, stylesheet, font,
+    image, media or frame in the built site that is not same-origin. `mailto:`, `tel:` and plain links are allowed.
+* `pre-push`: `trufflehog` on the commits being pushed and `osv-scanner scan source --recursive .` for known
+  vulnerabilities in dependencies (needs network; exit code 128, "no package sources", is accepted).
 
-There are 6 color schemes available:
+`markdownlint-cli2` checks this README (`.markdownlint-cli2.yaml`). `.github/dependabot.yml` updates the pinned GitHub
+Actions monthly; the site has no other dependencies.
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="/assets/images/blue.jpg" width="300"/> | <img src="/assets/images/turquoise.jpg" width="300"/> | <img src="/assets/images/green.jpg" width="300"/> |
+## Deploying
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="/assets/images/berry.jpg" width="300"/> | <img src="/assets/images/orange.jpg" width="300"/> | <img src="/assets/images/ceramic.jpg" width="300"/> |
+`.github/workflows/pages.yml` builds the site with `actions/jekyll-build-pages` and deploys it on every push to `main`
+(Settings > Pages > Source: GitHub Actions). `CNAME` keeps the domain `resume.hanskruse.eu`.
 
-## Credits
+## Credits and licence
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
-
-## License
-
-This project is licensed under the [MIT license](LICENSE.txt).
+Based on Orbit by Xiaoying Riley at [3rd Wave Media](https://themes.3rdwavemedia.com/), released under
+[Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/), as a Jekyll theme by
+[webjeda](https://github.com/sharu725/online-cv) under the [MIT license](LICENSE.txt). The styling is now the style of
+the other sites of the author; the section structure of the templates is still derived from that theme.
