@@ -31,7 +31,7 @@ sidebar:
   interests:
     - item: Blog
       link: https://hanskruse.eu
-    - item: Cooking 
+    - item: Cooking
       link: #
     - item: Gardening (vegetables & herbs)
       link: #
@@ -47,11 +47,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    25+ years of experience as a Software Engineer, currently working at KVK (Dutch Chamber of Commerce / Handelskammer).
+    25+ years of software engineering experience operating with the scope of a Technical Software Architect. Currently at KVK driving cross-team modernisation strategies, framework migrations, and security architecture.
 
     "Every line of code that doesn't exist is correct!"
 
-    I work at the crossroads of Spring Boot, Elasticsearch, and security as a Security Champion, and I have participated in and won several hackathons. Experienced in large-scale framework migrations with and without AI assistance, alongside hands-on DevOps experience with Kubernetes and modern cloud tooling.
+    Specialised in bridging enterprise software development with automated architectural governance (ArchUnit, OpenRewrite, spec-driven AI workflows). Experienced in driving business-unit-wide technical initiatives, mentoring engineers, and presenting architectural patterns internally and at industry conferences.
 
     When not at work, I cook, travel, and enjoy learning new things by tinkering with mechanical keyboards, embedded systems, and e-waste in my home lab.
 
@@ -64,105 +64,47 @@ experiences:
     time: 2022 - Present
     company: KVK, Utrecht, the Netherlands
     details: |
-      2022-present:
+      Operating as a senior software engineer for core platform modernisation initiatives:
 
-      Responsible for:
-        - Spec-driven, AI-assisted migration at scale from Spring Boot 3.5 to 4.1, guarded by EditorConfig, Enforcer, JaCoCo, ArchUnit, OpenRewrite, and Pitest to reduce technical debt and enhance security.
-        - Migrating Elasticsearch 7.x High-Level REST Client code to the modern fluent/functional elasticsearch-java 8.x library.
-        - Spec-driven, AI-assisted migration of JUnit 5.x to JUnit 6.1.
-        - Introducing custom metrics with Micrometer for Elastic Observability.
-        - Managing HTTP routes, Istio, and other Kubernetes configurations.
-        - Manually migrating Java codebases step-by-step from Java 8 through Java 25.
-        - Manually migrating legacy JUnit 3.x test code to JUnit 5.x.
-        - Introducing Logstash for migration and automated testing workflows.
+      Architecture & Enterprise Modernisation:
+        - Designed and executed a large-scale, spec-driven AI migration strategy for Spring Boot 3.5 to 4.1, establishing automated governance via OpenRewrite, ArchUnit, Pitest, and JaCoCo across standalone repositories.
+        - Architected the core library migration from legacy Elasticsearch 7.x REST clients to modern fluent elasticsearch-java 8.x and up.
+        - Defined custom and observability standards using Micrometer and Elastic Observability over multiple applications.
+        - Managed HTTP routing, Istio service mesh, and Kubernetes platform configurations.
 
-      Also starring as:
-        - Security Champion conducting threat modeling.
-        - Winner of multiple hackathons (utilizing Elasticsearch & Logstash).
-        - Coaching a junior developer up to medior levels.
-        - Core member of the Java Guild.
+      Security & Technical Governance:
+        - Security Champion leading threat modelling for our team.
+        - Core member in the Java Guild, facilitating developers.
 
   - role: Senior / Research Engineer
     time: 2015 - 2022
     company: Innovalor (later Inverid, now part of Signicat), Enschede, the Netherlands
     details: |
-      2019-2022 (Senior Engineer):
-      
-      Responsible for:
-        - Proof of concept and deployment for automated setup of Elastic stack, Grafana, and Prometheus using Ansible and custom Ansible role collections.
-        - Dockerized Logstash pipeline setups and migration to Elastic Cloud.
-        - Schema and pipeline management for Elasticsearch using YAML and Jinja templates instead of JSON.
-        - Refactoring large Ruby-based Logstash filter scripts into modular components.
-        - Infrastructure documentation, troubleshooting guides, and internal technical presentations.
-        - Proof-of-concept evaluation for Elastic-Agent adoption.
-        - Java analytics software maintenance and unit test migrations (JUnit 4 to JUnit 5).
-        - Mentoring colleagues on parameterized, property-based, and mutation testing practices.
-
-      2015-2019 (Research Engineer / Consultant):
-
-      Contracted to DNB ID Solutions (Den Norske Bank) to create IDmee—a mobile onboarding solution for financial institutions. Worked within an international team (UK, Norway, Netherlands) delivering technical consulting on ReadID verification integration and developing signed PDF generation/upload services.
-
-      Responsible for:
-        - Designing, developing, and maintaining the Elastic stack data mining pipeline for ReadID (tree-structured keyword index system without full-text search overhead).
-        - Developing and maintaining Java anonymization libraries for passport chip data.
-        - Integrating third-party server-side verification web services into ReadID and writing OData REST API documentation.
-        - Engineering ReadID server software for mobile NFC passport verification and C# Azure Functions.
-        - Designing and delivering internal Kibana visualization training.
-        - Mentoring student intern groups and participating in the 2016 Dutch Blockchain Hackathon.
-
-      Technologies & Training:
-        - Technologies: AWS (EC2, S3, SQS), Azure (Functions, Key Vault, Blob Storage), Docker, Ansible, ELK Stack (Elasticsearch, Logstash, Kibana, Beats, Fleet, Elastic-Agent), Java (EE), JavaScript, Lombok, OData, PostgreSQL, SQL Server, Ruby.
-        - Courses: Elastic Certified Engineer, Jeff Geerling's Ansible Course, Kubernetes Developer Tutorials.
+      Architectural Lead for identity verification platforms and cloud logging infrastructure:
+        - Designed and deployed enterprise Elastic stack, Grafana, and Prometheus monitoring infrastructure using custom Ansible role collections and Dockerised pipelines.
+        - Architected the high-throughput data mining pipeline for ReadID (DNB ID Solutions) and engineered passport chip data anonymisation libraries.
+        - Spearheaded identity verification service integrations (Azure Functions, OData, C#) and automated testing workflows (JUnit 5, mutation testing).
 
   - role: Software Engineer
     time: 2009 - 2015
     company: Centric, Deventer, the Netherlands
     details: |
-      Engineered Suite4DM—Centric's document and case management platform for municipal governments.
-      
-      Responsible for:
-        - Evaluating and architecting new OData-based web services.
-        - Conducting technical knowledge-sharing sessions on OData, TypeScript, LINQ, and WCF via presentations and pair programming.
-        - Coaching junior engineers and guiding teams through legacy code modernization (converting legacy JavaScript to TypeScript and adopting StUF-based web services).
-        - Providing Tier-3 remote engineering support for complex customer deployments.
-        - Authoring technical manuals and API reference guides for the core DMS connector.
-        - Serving as technical consultant on DMS integration for Centric HR & Payroll teams across the Netherlands and Romania.
-        - Building an integration testing framework for the DMS connector using C# and MSTest property-based testing.
-        - Developing DMS integrations with VB.NET, SharePoint CSOM/Server-Side Object Model, CMIS, and Intraoffice.
-        - Optimizing legacy infrastructure performance to support 200+ concurrent active sessions.
-
-      Technologies:
-        - WebAPI, OData, WCF, C#, VB.NET, TypeScript, jQuery, SharePoint CSOM
-
-      Courses:
-        - Coursera Functional Programming Principles in Scala
+      Systems Architect for municipal document and case management platforms (Suite4DM):
+        - Architected OData web service layers and integration testing frameworks (C#, MSTest, property-based testing).
+        - Scaled legacy infrastructure performance to support 200+ concurrent enterprise users.
+        - Led technical knowledge transfer on TypeScript, WCF, and StUF standards across Dutch and international teams.
 
   - role: Software Engineer
     time: 2007 - 2009
     company: IKM Engineering, Emmen, the Netherlands
     details: |
-      IKM Engineering specialized in decision-support systems and advanced mathematical modeling.
-
-      - Spearheaded company transition to .NET and modern web development architectures; trained local and remote developers in C#.
-      - Served as Project Lead for a DotNetNuke (DNN) HRM feedback platform built for Royal Haskoning.
-      - Developed Python/Zope integrations for the international Fliwas flood crisis management project in collaboration with Dutch water boards and Leiner & Wolff GmbH.
-      - Maintained and optimized Delphi-based predictive algorithms for real estate maintenance and portfolio analysis (AKZO paint analysis).
-      - Streamlined internal IT infrastructure by migrating legacy services to AWS and Google Cloud.
+      Technical Lead driving corporate transition to .NET web architectures, project leading DotNetNuke systems, and engineering Python/Zope flood crisis management integrations.
 
   - role: Application Engineer
     time: 1999 - 2007
     company: Novay (formerly Telematica Instituut), Enschede, the Netherlands
     details: |
-      Telematica Instituut (later Novay) was a Dutch national research center bridging industry and academia through practical software innovation.
-
-      Key Projects & Innovations:
-        - **GigaPort Awareness:** Developed an interactive presence visualization app mapping staff indoor locations using AJAX long-polling, Google Maps API, and X3D (WebGL predecessor). Presented at ICT Delta Congres.
-        - **Kanalen in Balans:** Converted complex Excel financial models into interactive Web Applications using JavaScript and Drupal.
-        - **Secure Networking:** Co-developed fiber optic access authentication pipelines leveraging RADIUS, DNSSEC, and SAML.
-        - **Remote Microscopy:** Re-engineered secure file transfer protocols for remote electron microscope diagnostics, replacing unreliable messaging queues with FTP over OpenVPN (demonstrated at RAI Amsterdam).
-        - **Second Life Integrations:** Built an enterprise demonstration environment connecting virtual worlds with external REST APIs.
-        - **ProRail / NS (Dutch Railways):** Built energy-efficient train driving simulators and prototyped location-based transit schedule services for Symbian devices (featured in *De Volkskrant*).
-        - **Microsoft Research Collaborations:** Prototyped early unified communication/presence platforms (later evolved into Lync/Skype for Business) and built PocketPC/Mobile .NET Compact Framework medical assistance tools for Alzheimer's and stroke patient care.
+      Research Engineer prototyping enterprise systems, including presence visualisation (AJAX/X3D), Microsoft Research unified communication platforms (Lync precursor), and rail transit simulators for ProRail/NS.
 
   - role: Volunteer Citizen Participation Board Member
     company: Municipality of Deventer
@@ -174,7 +116,7 @@ experiences:
     company: University of Twente
     time: 1995 - 1998
     details: |
-      Assisted computer science lab courses for undergraduate students in C++ programming and system simulation (e.g., Maeslantkering storm surge barrier simulations).
+      Assisted computer science lab courses in C++ programming and system simulation.
 
 projects:
   title: Blogs and Side Projects
@@ -186,7 +128,7 @@ projects:
       tagline: "AI software architecture and communication trainer capable of giving pragmatic, dogmatic, or Vogon-style architectural advice."
     - title: Mik Mak Muk
       link: "https://github.com/nicenemo/mikmakmuk"
-      tagline: "Ansible-driven multi-flavor 3-node ELK cluster deployment utilizing systemd, systemd-nspawn, Docker, Incus, and Kubernetes."
+      tagline: "Ansible-driven multi-flavour 3-node ELK cluster deployment utilising systemd, systemd-nspawn, Docker, Incus, and Kubernetes."
     - title: Batocera Ansible
       link: "https://github.com/nicenemo/batocera_ansible"
       tagline: "Ansible playbooks for automated setup and secure teardown of Batocera retro gaming systems."

@@ -46,5 +46,5 @@ Actions monthly; the site has no other dependencies.
 
 Based on Orbit by Xiaoying Riley at [3rd Wave Media](https://themes.3rdwavemedia.com/), released under
 [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/), as a Jekyll theme by
-[webjeda](https://github.com/sharu725/online-cv) under the [MIT license](LICENSE.txt). The styling is now the style of
+[webjeda](https://github.com/sharu725/online-cv) under the [MIT licence](LICENSE.txt). The styling is now the style of
 the other sites of the author; the section structure of the templates is still derived from that theme.
